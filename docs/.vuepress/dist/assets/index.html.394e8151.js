@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,a as e,b as s}from"./app.2dea4cb4.js";const c={},d=e("h1",{id:"tidyverse",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#tidyverse","aria-hidden":"true"},"#"),s(" Tidyverse")],-1),n=[d];function o(i,_){return a(),r("div",null,n)}const l=t(c,[["render",o],["__file","index.html.vue"]]);export{l as default};

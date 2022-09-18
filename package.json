@@ -1,0 +1,16 @@
+{
+  "name": "cheat-sheets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/robertskovacs/Cheat-Sheets.git",
+  "author": "Robert Kovacs <19787665+robertskovacs@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.51"
+  }
+}
