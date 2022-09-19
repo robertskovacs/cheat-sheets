@@ -25,6 +25,11 @@ export default defineUserConfig({
           },
         ],
       },
+      {
+        text: 'RabbitMQ',
+        collapsible: true,
+        link: '/RabbitMQ/',
+      }
     ],
   }),
 });
