@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4cb7eb5a","path":"/R/Tidyverse/","title":"Tidyverse","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1663663743000,"contributors":[{"name":"Robert Kovacs","email":"robert.kovacs@knorr-bremse.com","commits":1}]},"filePathRelative":"R/Tidyverse/README.md"}');export{e as data};

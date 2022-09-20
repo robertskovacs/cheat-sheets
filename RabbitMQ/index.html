@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>🐇 RabbitMQ | 🚀</title><meta name="description" content="Cheat sheets">
+    <link rel="modulepreload" href="/cheat-sheets/assets/app.013e88f7.js"><link rel="modulepreload" href="/cheat-sheets/assets/index.html.96c21b99.js"><link rel="modulepreload" href="/cheat-sheets/assets/index.html.c343eef8.js"><link rel="prefetch" href="/cheat-sheets/assets/index.html.95180750.js"><link rel="prefetch" href="/cheat-sheets/assets/index.html.6279a642.js"><link rel="prefetch" href="/cheat-sheets/assets/index.html.85d58326.js"><link rel="prefetch" href="/cheat-sheets/assets/exploratory-data-analysis.html.74d81ddb.js"><link rel="prefetch" href="/cheat-sheets/assets/404.html.d2dc3323.js"><link rel="prefetch" href="/cheat-sheets/assets/index.html.87a7eedc.js"><link rel="prefetch" href="/cheat-sheets/assets/index.html.36ed2af2.js"><link rel="prefetch" href="/cheat-sheets/assets/index.html.5a8d5409.js"><link rel="prefetch" href="/cheat-sheets/assets/exploratory-data-analysis.html.b7f35aff.js"><link rel="prefetch" href="/cheat-sheets/assets/404.html.a558dfe1.js">
+    <link rel="stylesheet" href="/cheat-sheets/assets/style.03128106.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/cheat-sheets/" class=""><!----><span class="site-name">🚀</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><!----><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><a href="/cheat-sheets/R/" class="sidebar-item sidebar-heading collapsible" aria-label="R"><!--[--><!--]--> R <!--[--><!--]--></a><ul style="display:none;" class="sidebar-item-children"><!--[--><li><a href="/cheat-sheets/R/Tidyverse/" class="sidebar-item" aria-label="Tidyverse"><!--[--><!--]--> Tidyverse <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a href="/cheat-sheets/R/Tidyverse/exploratory-data-analysis" class="sidebar-item" aria-label="Exploratory Data Analysis"><!--[--><!--]--> Exploratory Data Analysis <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><li><a aria-current="page" href="/cheat-sheets/RabbitMQ/" class="router-link-active router-link-exact-active router-link-active sidebar-item sidebar-heading active collapsible" aria-label="RabbitMQ"><!--[--><!--]--> RabbitMQ <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/cheat-sheets/RabbitMQ/#rabbitmq-instance-with-docker" class="router-link-active router-link-exact-active sidebar-item" aria-label="RabbitMQ Instance with Docker"><!--[--><!--]--> RabbitMQ Instance with Docker <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="🐇-rabbitmq" tabindex="-1"><a class="header-anchor" href="#🐇-rabbitmq" aria-hidden="true">#</a> 🐇 RabbitMQ</h1><h2 id="rabbitmq-instance-with-docker" tabindex="-1"><a class="header-anchor" href="#rabbitmq-instance-with-docker" aria-hidden="true">#</a> RabbitMQ Instance with Docker</h2><p>First, let’s pull the RabbitMQ docker image</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>docker pull rabbitmq:3-management
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Map port 15672 for the management web app and port 5672 for the message broker</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul><li>Management Web app: http://localhost:15672</li><li>Username: <code>guest</code></li><li>Password: <code>guest</code></li></ul></div><!--[--><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: robert.kovacs@knorr-bremse.com">Robert Kovacs</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/cheat-sheets/R/" class="" aria-label="R"><!--[--><!--]--> R <!--[--><!--]--></a></span><!----></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/cheat-sheets/assets/app.013e88f7.js" defer></script>
+  </body>
+</html>
