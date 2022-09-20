@@ -1,4 +1,4 @@
-# RabbitMQ
+# 🐇 RabbitMQ
 
 ## RabbitMQ Instance with Docker
 
