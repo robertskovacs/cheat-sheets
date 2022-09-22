@@ -12,6 +12,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.CHEAT_SHEETS }}
           TARGET_REPO: robertskovacs/Cheat-Sheets
-          TARGET_BRANCH: master
+          TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist
