@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n,a as s}from"./app.682cdc6a.js";const o={},c=s("p",null,"https://www.smashingmagazine.com/2019/08/vuepress-documentation/",-1),a=[c];function _(r,i){return t(),n("div",null,a)}const d=e(o,[["render",_],["__file","index.html.vue"]]);export{d as default};
