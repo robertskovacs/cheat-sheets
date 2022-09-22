@@ -1,6 +1,6 @@
 ---
 title: RabbitMQ
-lang: en-US
+sidebar: auto
 ---
 
 # 🐇 RabbitMQ

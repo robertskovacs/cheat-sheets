@@ -1,6 +1,6 @@
 ---
 title: ADB
-lang: en-US
+sidebar: auto
 ---
 
 Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device.
