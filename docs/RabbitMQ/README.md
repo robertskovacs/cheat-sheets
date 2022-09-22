@@ -1,3 +1,8 @@
+---
+title: RabbitMQ
+lang: en-US
+---
+
 # 🐇 RabbitMQ
 
 ## RabbitMQ Instance with Docker
